@@ -24,5 +24,3 @@ df = pd.DataFrame.from_dict(dic)
 # print(df)
 
 print(tabulate(df, headers=headers, tablefmt="simple", missingval="N/A"))
-
-time.sleep(5)
